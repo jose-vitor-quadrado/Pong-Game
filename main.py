@@ -18,8 +18,8 @@ scoreboard = Scoreboard()
 screen.listen()
 screen.onkeypress(l_paddle.up, "w")
 screen.onkeypress(l_paddle.down, "s")
-screen.onkeypress(r_paddle.up, "i")
-screen.onkeypress(r_paddle.down, "k")
+screen.onkeypress(r_paddle.up, "Up")
+screen.onkeypress(r_paddle.down, "Down")
 
 game_is_on = True
 while game_is_on:
